@@ -1,0 +1,47 @@
+.testimonies{
+    margin: 50px;
+    
+}
+.client{
+    position: absolute;
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    font-family: sans-serif ;
+}
+h1{
+    font-family: 'copper black';
+    font-size: 18px;
+    text-align: center;
+    color: rgb(187, 187, 187);
+
+}
+img{
+    width: 60px;
+    border-radius: 50px;
+    justify-items: center;
+
+}
+.emily{
+    text-align: center;
+    font-weight: 18px;
+    font-weight: bold;
+    margin: 20px 45px;
+    color: rgb(75, 75, 75);
+}
+.position{
+    font-size: 12px;
+}
+b{
+    color: black;
+}
+@media screen and (max-width: 992px){
+    .client{
+        position: absolute;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+
+}
